@@ -29,13 +29,29 @@
 
 因支付宝小程序暂未开放个人注册，请下载项目到本地进行预览。
 
+## 初始化
+
+### 克隆仓库
+
+```bash
+$ git clone https://github.com/SweetRadish/GdeiAssistant-AlipayApp.git
+```
+
+### 配置参数
+
+项目的配置参数被保存在项目目录下的data/data.js中
+
+1. **防重放攻击**：requestValidateToken是移动端请求服务端的拥有防重放攻击保护的数据接口时，需要携带的令牌信息。该令牌信息应该与服务端中配置的防重放攻击令牌值相同，否则校验无法通过。详情请参考 [广东第二师范学院校园助手系统初始化说明](https://github.com/SweetRadish/GdeiAssistant/blob/master/README.md#%E5%88%9D%E5%A7%8B%E5%8C%96)
+
 ## 相关
 
 广东二师助手微信小程序的后端API数据接口由[广东第二师范学院校园助手系统](https://github.com/SweetRadish/GdeiAssistant)提供
 
 ## 协议
 
-[MIT](http://opensource.org/licenses/MIT)
+[MIT License](http://opensource.org/licenses/MIT)
+
+[Anti 996 License](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
 Copyright (c) 2016 - 2019 GdeiAssistant
 
